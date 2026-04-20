@@ -1,8 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import { Crown, Menu, X } from "lucide-react";
 import { useState } from "react";
-import { TerminologyToggle } from "./TerminologyToggle";
-import { AccessibilityButton } from "./AccessibilityButton";
+import { TerminologyToggle } from "@/components/TerminologyToggle";
+import { AccessibilityButton } from "@/components/AccessibilityButton";
 
 const nav = [
   { to: "/", label: "Home" },
